@@ -8,9 +8,9 @@ DeployMaster is a Python-based deployment automation tool designed to streamline
 ## Company: Refined Stack Co.
 
 ## Team Members
-Muhammed Nihal Kunnath
-Swetha Macha
-Nirajan Mahara
+- Muhammed Nihal Kunnath
+- Swetha Macha
+- Nirajan Mahara
 
 ## Features
 - Automated deployment steps
