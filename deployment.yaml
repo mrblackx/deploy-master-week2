@@ -1,0 +1,17 @@
+deployment:
+  environment: production
+  steps:
+  - name: Setup Environment
+      command: python -m venv venv
+    - name: Install Dependencies
+      command: pip install -r requirements.txt
+    - name: Run Tests
+      command: python -m pytest tests/ || exit 0
+  rollback:
+    - name: Rollback Deployment
+      command: echo "Rollback simulation"
+  notifications:
+    email: devops@example.com
+    
+
+

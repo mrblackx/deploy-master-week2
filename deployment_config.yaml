@@ -1,0 +1,8 @@
+deployment:
+  steps:
+    - name: Install Dependencies
+      command: pip install -r requirements.txt
+    - name: Run Unit Tests
+      command: python -m pytest tests/
+  notifications:
+    email: devops@company.com
