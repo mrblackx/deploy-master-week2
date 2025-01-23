@@ -120,4 +120,4 @@ python -m pytest tests/
 ## Contact
 Your Name - refinedstackco@example.com
 
-Project Link: [https://github.com/yourusername/DeployMaster](https://github.com//DeployMaster](https://github.com/mrblackx/deploy-master-week2))
+Project Link: https://github.com/mrblackx/deploy-master-week2
